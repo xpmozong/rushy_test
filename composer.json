@@ -1,0 +1,21 @@
+{
+    "repositories": {
+        "0": {
+            "type": "vcs",
+            "url": "ssh://xuping@localhost:29418/rushy.git"
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.0",
+        "xpmozong/rushy": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
