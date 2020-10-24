@@ -10,7 +10,6 @@
         }
     },
     "require": {
-        "twig/twig": "^3.0",
         "xpmozong/rushy": "dev-master"
     },
     "autoload": {
